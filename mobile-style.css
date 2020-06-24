@@ -1,0 +1,86 @@
+@media only screen and (max-width: 768px) {
+ 
+  #somaiya_img {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right:1%;
+    height : 10vh;
+    width : 12vh;
+  }
+  #trust_img {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    height : 10vh;
+    width : 12h;
+  }
+  .header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+
+  .section_img {
+    opacity: 0.8;
+    border-radius: 0.2em;
+    height: 40vh;
+    width: 60vh;
+  }
+
+  .section .row .col-md-6 .btn-primary {
+    border-radius: 1.5rem;
+    border: none;
+    background: #f8f8f8 !important;
+    font-weight: 600;
+    color: #555;
+    margin-left: 50%;
+    margin-top: 5vh;
+    padding: 10px ;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .section_img {
+    opacity: 0.8;
+    border-radius: 0.2em;
+    height: 30vh;
+    width: 45vh;
+  }
+
+  #about_img {
+    height: 60vh; 
+    width: 45vh;
+    margin: 0%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .section_img {
+    opacity: 0.8;
+    border-radius: 0.2em;
+    height: 15vh;
+    width: 20vh;
+    margin-right: 2%;
+  }
+
+  .section .row .col-md-6 .btn-primary {
+    border-radius: 1.5rem;
+    border: none;
+    background: #f8f8f8 !important;
+    font-weight: 600;
+    color: #555;
+    margin-left: 40%;
+    margin-top: 5vh;
+    padding: 10px ;
+  }
+}

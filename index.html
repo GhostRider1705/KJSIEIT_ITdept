@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>KJSIEIT</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c3baa1b198.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mobile-style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    
+    </script>
+</head>
+
+<body>
+  
+  <header>
+    <div class="container-fluid p-0">
+      <div class="top-header" id="home">
+          <img src="assets/kjsomiya.png" alt="kj somaiya" id="somaiya_img"">
+          <div><p id="institute-name">K. J. SOMAIYA INSTITUTE OF ENGINEERING AND INFORMATION TECHNOLOGY</p>
+          </div>
+          <img src="assets/somaiya-trust.jpg" id="trust_img" alt="somaiya trust">
+      </div>
+      <div class="bottom-header">
+        <div>
+          <p id="dept-name">Department of Information Technology</p>
+        </div>
+      </div>
+
+      <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light " id="navbar" >
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">KJSIEIT</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="nav">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#event">EVENTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tnp">TRAINING AND PLACEMENT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#student">STUDENT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#alumni">ALUMNI</a>
+      </li>
+    </ul>
+    <span class="nav-item" style="align-self: flex-end">
+      <a class="nav-link" style="color: #91f3ee; font-weight: bold"  href="login.html">LOGIN</a>
+    </span>
+      <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+  <!--/.Navbar-->
+      
+    <div id="about_us">
+        <div id="content" class="container text-center" >
+            <div class="row" id="dept">
+              <div class="col-md-7 col-sm-12 " id="dept-info">
+                <h6>ABOUT </h6>
+                <h1>US</h1>
+                <p>
+                    Department of Information Technology was established in the year <i>2001-02</i> for imparting the quality based technical education in the IT field with constant value addition in the frontiers of Computer and Information Science. The strength of the department is the students and the faculty. Department has Faculty members constantly upgrade themselves so as to keep track of the
+                    fast changes in the field either by pursuing higher education or attending
+                    various conferences, workshops or training programs. Department has 12 faculty members,
+                    4 Lab Assistants and 2 Lab Attendants. Our students are also provided platform to improve their 
+                    skills by organizing various activities under the banner of <i>IEEE</i>, <i>IETE</i>, and <i>CSI</i>, annual technical and 
+                    cultural programs.
+                </p>
+              </div>
+              <div class="col-md-5 col-sm-12  h-25">
+              <img id="about_img" src="assets/1.jpg" alt="IT_dept" />
+              </div>
+            </div>
+          </div>
+    </div>
+  
+    <section class="section" id="event" style="background: radial-gradient(#ffecd2,#fcb69f)">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="pray">
+              <img src="assets\event1.jpg" alt="event_section" class="section_img" />
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>EVENT PORTAL</h1>
+              <p class="pt-4">
+                This section contains all the information about all the curricular and non curricular activities conducted by college and the department.
+              </p>
+              <button type="button" class="btn px-5 py-2 btn-primary" >Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="tnp" style="background: radial-gradient(#13547a,#80d0c7)">
+      <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="assets\TNP.jpg" alt="TNP_portal" class="section_img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h1>TRAINING AND PLACEMENT PORTAL</h1>
+                <p class="pt-4">
+                  This section contains all the information regarding training and placement activities and records.
+                </p>
+                <button type="button" class="btn px-5 py-2 btn-primary" >Explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section" id="student" style="background: radial-gradient(#f5f7fa,#c3cfe2);">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="pray">
+                  <img src="assets\student.jpg" alt="student_portal" class="section_img" />
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="panel text-left">
+                  <h1>STUDENT PORTAL</h1>
+                  <p class="pt-4">
+                    This section contains the information of all the students focused on the academic performance.
+                  </p>
+                  <button type="button" class="btn px-5 py-2 btn-primary" >Explore</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section" id="alumni" style="background: radial-gradient(#667eea,#764ba2)">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="assets\alumni.jpg" alt="alumni_portal" class="section_img" />
+              </div>
+            </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>ALUMNI PORTAL</h1>
+              <p class="pt-4">
+                This portal is dedicated to alumni network of KJSIEIT and is designed to connect past and present students of our college.
+              </p>
+              <button type="button" class="btn px-5 py-2 btn-primary" >Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> 
+</header>
+  <footer id="footer">
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-md-5 col-sm-5">
+          <h4 class="text-light">Quick links</h4>
+          <p class="text-muted">
+            <ul class="text-muted">
+              <li> 
+                <a class="text-muted" href="https://myaccount.somaiya.edu/">Myaccount Portal</a> 
+              </li>
+              <li>
+                  <a class="text-muted" href="https://kjsieit.somaiya.edu/en">Visit college</a>
+              </li>
+              <li>
+                  <a class="text-muted" href="https://kjsieit.somaiya.edu/en/programme/engineering-it">For More Info</a>
+              </li>
+            </ul>
+          </p>
+
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <h4 class="text-light">Newsletter</h4>
+          <p class="text-muted">Stay Updated</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us be social</p>
+          <div class="column text-light">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+$(document).ready(function() {
+  var stickyNavTop = $('.navbar').offset().top;
+
+  var stickyNav = function(){
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop > stickyNavTop) { 
+      $('.navbar').addClass('sticky');
+    } else {
+      $('.navbar').removeClass('sticky'); 
+    }
+  };
+
+  stickyNav();
+
+  $(window).scroll(function() {
+    stickyNav();
+  });
+});
+  </script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
